@@ -367,7 +367,7 @@ object sanitytests extends CommonModule {
       super.resources() ++ libraryResources()
     }
   }
-  object vcu118 extends Tests with TestModule.Utest {
+  object fpga extends Tests with TestModule.Utest {
     override def ivyDeps = Agg(
       ivys.utest
     )
